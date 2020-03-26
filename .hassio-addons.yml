@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  mysettings:
+    repository: my_settings
+    target: mysettings
+    image: hassioaddons/adb-{arch}
